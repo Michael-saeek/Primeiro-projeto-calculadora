@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#corpo {
+    padding: 30px;
+    position: relative;
+    width: center;
+    margin: 200px auto;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: #b3aaaa;
+}
+
+#campoDados {
+    margin: 15px 6px 0px 6px;
+    padding: 25px 75px;
+    background-color: snow;
+    border: 1px solid #fff;
+    border-radius: 0px 15px 0px 15px;
+    font-size: 20px;
+    font-style: bold;
+    text-align: right;
+   
+}
+
+#tempoaovivo {
+    margin-left: 5px;
+    
+}
+
+#corpoBotões {
+    padding: 0px;
+    margin: 15px 0px;
+    position: absolute;
+    width: 420px;
+    height: 375px;
+
+}
+
+div .botõesv {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    float: left;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 38px 45px;
+    margin: 2px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 200ms ease-in;
+}
+
+.botõesv:hover {
+    background-color: #C0C0C0;
+}
+
+div .botõesa {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    float: left;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 38px 45px;
+    margin: 2px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF8C00;
+    transition: all 200ms ease-in;
+
+}
+
+.botõesa:hover {
+    background-color: #a75d02;
+}
+
+div #result {
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    float: left;
+    border-radius: 8px;
+    border: 0px solid;
+    padding: 38px 45px;
+    margin: 2px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:	#a12626;
+    transition: all 200ms ease-in;
+
+}
+
+#result:hover{
+    background-color: #800000;
+}
+
+div #delete {
+    text-decoration: none;
+    padding: 38px 27px;
+    transition: all 200ms ease-in;
+    
+}
+

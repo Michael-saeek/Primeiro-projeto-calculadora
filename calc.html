@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="calc.css"/>
+    <script src="calc.js"></script>
+</head>
+
+<body onload="iniTime()">
+
+
+<!-- Corpo da calculadora, seria praticamente um design e dentro dele vamos colocar os botões-->
+<div id='corpo'>  
+    
+    <div>
+    <!--Vamos implementar uma função que possa me trazer o horario em tempo real-->
+    <span id='tempoaovivo'>Time</span>
+    <input text='' id='campoDados' disabled="" value=""/>
+    </div>
+
+
+    <!--o corpo dos botões para conseguir dar estilo rapido em CSS3-->
+    <div id='corpoBotões'>
+    <!-- Vamos colocar 4 colunas a partir de agora com botões dentro do espaçamento restante -->
+    <!-- e fazer 5 filas baseando no height correto desenhando com border solid-->
+    <button id='' onclick="calcular('valor', 0)" class="botõesv" type="button">0</button>
+    <button id='' onclick="calcular('ação', '/')" class="botõesa" type="button">/</button>
+    <button id='delete1'onclick="calcular('ação', '+')" class="botõesa" type="button">+</button>
+    <button id='delete' onclick="calcular('ação', 'clear')" class="botõesa" type="button">Clear</button>
+
+    <button id='' onclick="calcular('valor', 7)" class="botõesv" type="button">7</button>
+    <button id='' onclick="calcular('valor', 8)" class="botõesv" type="button">8</button>
+    <button id='' onclick="calcular('valor', 9)" class="botõesv" type="button">9</button>
+    <button id='' onclick="calcular('ação', '*')" class="botõesa" type="button">x</button>
+
+    <button id='' onclick="calcular('valor', 4)" class="botõesv" type="button">4</button>
+    <button id='' onclick="calcular('valor', 5)" class="botõesv" type="button">5</button>
+    <button id='' onclick="calcular('valor', 6)" class="botõesv" type="button">6</button>
+    <button id='' onclick="calcular('ação', '-')" class="botõesa" type="button">-</button>
+
+    <button id='' onclick="calcular('valor', 1)" class="botõesv" type="button">1</button>
+    <button id='' onclick="calcular('valor', 2)" class="botõesv" type="button">2</button>
+    <button id='' onclick="calcular('valor', 3)" class="botõesv" type="button">3</button>
+    <button id='result' onclick="calcular('ação', '=')" class="botõesa" type="button">=</button>
+
+    </div>
+
+</div>
+
+
+    
+</body>
+
+
+</html>
